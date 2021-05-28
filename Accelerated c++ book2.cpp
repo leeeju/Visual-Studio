@@ -13,17 +13,17 @@ using std::string;
 
 int main()
 {
-	cout << "동무 이름이 뭐입네까? : ";
+	cout << "당신의 이름은 무었입니까?? : ";
 	string name;
 	cin >> name;
 
 	cout << "내이름은  : " + name << endl;
-	cout << "점수는 : ";
+	cout << "평가 점수는? : ";
 
 	int midterm, finalterm;
 	cin >> midterm >> finalterm;
 
-	cout << " 니 공부 점수  ";
+	cout << " 당신의 공부 점수  ";
 	std::vector<double> homework;
 
 	double hw;
