@@ -47,5 +47,5 @@ int main()
 	cout << "오늘의 점수는~~ : " << 0.2 * midterm + 0.4 * finalterm + 0.4 * mid << endl;
 	cout << std::setprecision(prec);
 
-	return 0;
+	return 0; //
 }
